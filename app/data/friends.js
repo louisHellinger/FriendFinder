@@ -1,0 +1,170 @@
+
+var friends = [
+{
+  "name":"Ahmed",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+},
+
+{
+  "name":"Leo",
+  "photo":"https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBqeTHP.img?h=516&w=624&m=6&q=60&u=t&o=t&l=f&f=jpg&x=414&y=266",
+  "scores":[
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+},
+{
+  "name":"Taylor",
+  "photo":"http://www.billboard.com/files/styles/article_main_image/public/media/taylor-swift-2014-sarah-barlow-billboard-650.jpg",
+  "scores":[
+      5,
+      2,
+      2,
+      5,
+      2,
+      5,
+      2,
+      5,
+      2,
+      5
+    ]
+},
+{
+  "name":"Dustin",
+  "photo":"https://images.hellogiggles.com/uploads/2016/08/05075722/GettyImages-583921002.jpg",
+  "scores":[
+      5,
+      2,
+      2,
+      5,
+      2,
+      5,
+      2,
+      5,
+      2,
+      5
+    ]
+},
+{
+  "name":"Justing B",
+  "photo":"http://cdn2-www.musicfeeds.com.au/assets/uploads/justin-bieber-2016-press-pic-supplied.jpg",
+  "scores":[
+      5,
+      3,
+      2,
+      1,
+      3,
+      3,
+      1,
+      2,
+      1,
+      4
+    ]
+},
+{
+  "name":"Beyonce",
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzZp2UzxM394X8h5NIO_lREqbveQvuVOCfm2JWzaMpiE7LpkPV",
+  "scores":[
+      1,
+      4,
+      4,
+      1,
+      3,
+      1,
+      5,
+      3,
+      2,
+      4
+    ]
+},
+{
+  "name":"Mike",
+  "photo":"http://www.c2e2.com/RNA/RNA_C2E2_V2/2017/_images/_guests/full/Finn-Wolfhard2.jpg?v=636226791707346419",
+  "scores":[
+      2,
+      5,
+      1,
+      1,
+      2,
+      4,
+      3,
+      2,
+      2,
+      3
+    ]
+},
+{
+  "name":"Eleven",
+  "photo":"http://www.c2e2.com/RNA/RNA_C2E2_V2/2017/_images/_guests/full/Millie-Bobby-Brown.jpg?v=636149160400842343",
+  "scores":[
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+},
+{
+  "name":"Jack Pierson",
+  "photo":"http://media.immediate.co.uk/volatile/sites/3/2017/08/124644.jpg?quality=90&lb=720,479&background=white",
+  "scores":[
+      5,
+      4,
+      3,
+      2,
+      1,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+},
+{
+  "name":"Justin Hartley",
+  "photo":"http://cdn-img.instyle.com/sites/default/files/styles/622x350/public/1474288374/091916-justin-hartley-lead.jpg",
+  "scores":[
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+}
+
+];
+
+
+
+module.exports = friends;
+
