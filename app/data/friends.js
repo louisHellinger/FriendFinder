@@ -66,7 +66,7 @@ var friends = [
     ]
 },
 {
-  "name":"Justing B",
+  "name":"Justin B",
   "photo":"http://cdn2-www.musicfeeds.com.au/assets/uploads/justin-bieber-2016-press-pic-supplied.jpg",
   "scores":[
       5,

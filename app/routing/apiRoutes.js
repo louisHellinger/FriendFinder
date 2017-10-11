@@ -6,8 +6,7 @@ var friends = require("../data/friends.js");
 module.exports = function(app) {
 
 	app.get("/api/friends", function(req, res) {
-		console.log(res);
-
+		// console.log(res);
 		res.json(friends);
 
 	});
@@ -16,10 +15,9 @@ module.exports = function(app) {
 
 		console.log("\n\r=======================================\n\r");
 		console.log("=======================================\n\r");
-		console.log("made it to post");
+		// console.log("made it to post");
 
 		var newFriend = req.body;
-		console.log(req.body);
 
 		var newFriend = {
 			name: req.body.name,

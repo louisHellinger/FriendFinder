@@ -6,7 +6,6 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<!-- <script src="https://code.jquery.com/jquery.js"></script> -->
 	</head>
 	<body>
 		<div class="container">
@@ -19,7 +18,7 @@
 			<input type="text" name="" id="photo" class="form-control" required >
 			<hr>
 			<h3><strong>Question 1</strong></h3>
-			<h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+			<h4>Your often daydream about vacations and getaways.</h4>
 			<select data-placeholder="" class="chosen-select" id="q1">
 				<option value=""></option>
 				<option value="1">1 (Strongly Disagree)</option>
@@ -28,8 +27,9 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 2</strong></h3>
-			<h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+			<h4>When you travel, you prefer to head to a beach destination over a colder climate.</h4>
 			<select data-placeholder="" class="chosen-select" id="q2">
 				<option value=""></option>
 				<option value="1">1 (Strongly Disagree)</option>
@@ -38,6 +38,7 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 3</strong></h3>
 			<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
 			<select data-placeholder="" class="chosen-select" id="q3">
@@ -48,8 +49,9 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 4</strong></h3>
-			<h4>You rarely do something just out of sheer curiosity.</h4>
+			<h4>You like to do brain-teasers, puzzles and play games that challenge you mentally.</h4>
 			<select data-placeholder="" class="chosen-select" id="q4">
 				<option value=""></option>
 				<option value="1">1 (Strongly Disagree)</option>
@@ -58,6 +60,7 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 5</strong></h3>
 			<h4>People can rarely upset you.</h4>
 			<select data-placeholder="" class="chosen-select" id="q5">
@@ -68,8 +71,9 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 6</strong></h3>
-			<h4>It is often difficult for you to relate to other people’s feelings.</h4>
+			<h4>When it comes to having difficult conversations, you prefer to be blunt, over sugar coating the message.</h4>
 			<select data-placeholder="" class="chosen-select" id="q6">
 				<option value=""></option>
 				<option value="1">1 (Strongly Disagree)</option>
@@ -78,8 +82,9 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 7</strong></h3>
-			<h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+			<h4>You take pride in your appearance, and would prefer to overdress than to be underdressed for an occasion.</h4>
 			<select data-placeholder="" class="chosen-select" id="q7">
 				<option value=""></option>
 				<option value="1">1 (Strongly Disagree)</option>
@@ -88,8 +93,9 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 8</strong></h3>
-			<h4>You rarely get carried away by fantasies and ideas.</h4>
+			<h4>You appreciate the "good things" in life, but will only splurge on big things that are worth it.</h4>
 			<select data-placeholder="" class="chosen-select" id="q8">
 				<option value=""></option>
 				<option value="1">1 (Strongly Disagree)</option>
@@ -98,6 +104,7 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 9</strong></h3>
 			<h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
 			<select data-placeholder="" class="chosen-select" id="q9">
@@ -108,6 +115,7 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<h3><strong>Question 10</strong></h3>
 			<h4>You feel more energetic after spending time with a group of people.</h4>
 			<select data-placeholder="" class="chosen-select" id="q10">
@@ -118,15 +126,13 @@
 				<option value="4">4</option>
 				<option value="5">5 (Strongly Agree)</option>
 			</select>
+			<hr>
 			<br>
 			<br>
 			<!-- Submit Button -->
-			<button type="submit" class="btn btn-primary btn-lg btn-block" id="add-friend" >
-				<i class="fa fa-check-circle" aria-hidden="true"></i>
-			Submit</button>
+			<button type="submit" class="btn btn-primary btn-lg btn-block" id="add-friend">
+			<span class="fa fa-check-circle-o" aria-hidden="true"></span> Submit</button>
 			
-
-
 			<!-- Modal -->
 			<div class="modal fade" role="dialog" data-toggle="modal" id="myModal" data-target="#myModal">
 				<div class="modal-dialog">
@@ -142,7 +148,7 @@
 							
 						</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="myModal">Close</button>
+							<button id="closeWindow" type="button" class="btn btn-default" data-dismiss="myModal">Close</button>
 						</div>
 					</div>
 					
@@ -150,66 +156,62 @@
 			</div>
 		</div>
 		<hr>
-
 		<footer class="footer">
 			<div class="container">
-				<p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+				<p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/louisHellinger/FriendFinder">GitHub Repo</a></p>
 			</div>
 		</footer>
-
-
-
-<script type="text/javascript">
-		//$('#myModal').modal('hide');
-
-		$("#add-friend").on("click", function(event) {
-		event.preventDefault();		
-		validateForm();
-	});
-
-
-	function validateForm() {
-
-	    if ( $("#name").val() === '' || $("#photo").val() === '' || $("#q1").val() === '' ||
-		$("#q2").val() === '' || $("#q3").val() === '' || $("#q4").val() === '' || $("#q5").val()=== '' || $("#q6").val() === '' || $("#q7").val() === '' || $("#q8").val() === '' || $("#q9").val() === '' || $("#q10").val() === '') {
-
-	        alert("Please fill out all fields");
-	    } else {
-			newFriend();
-		}
-
-	};
-
-function newFriend() {
-	var newFriend = {
-	name: $("#name").val().trim(),
-	photo: $("#photo").val().trim(),
-	scores: [
-			$("#q1").val(),
-			$("#q2").val(),
-			$("#q3").val(),
-			$("#q4").val(),
-			$("#q5").val(),
-			$("#q6").val(),
-			$("#q7").val(),
-			$("#q8").val(),
-			$("#q9").val(),
-			$("#q10").val()
-			]
-		}
-	
-		// Question: What does this code do??
-		$.post("/api/friends", newFriend)
-		.done(function(data) {
-			$("#myModal").modal("toggle");
-			$("#bestMatchName").html(data.name);
-			$("#bestMatchImage").attr("src", data.photo).css("width","90%");
-		console.log(data);
-		//alert("adding Friend...");
-		});
-}
-
-</script>
+		<script type="text/javascript">
+				//$('#myModal').modal('hide');
+				$("#add-friend").on("click", function(event) {
+						event.preventDefault();
+				validateForm();
+			});
+			function validateForm() {
+			if ( $("#name").val() === '' || $("#photo").val() === '' || $("#q1").val() === '' ||
+				$("#q2").val() === '' || $("#q3").val() === '' || $("#q4").val() === '' || $("#q5").val()=== '' || $("#q6").val() === '' || $("#q7").val() === '' || $("#q8").val() === '' || $("#q9").val() === '' || $("#q10").val() === '') {
+			alert("Please fill out all fields");
+			} else {
+					newFriend();
+				}
+			};
+		function newFriend() {
+			var newFriend = {
+			name: $("#name").val().trim(),
+			photo: $("#photo").val().trim(),
+			scores: [
+					$("#q1").val(),
+					$("#q2").val(),
+					$("#q3").val(),
+					$("#q4").val(),
+					$("#q5").val(),
+					$("#q6").val(),
+					$("#q7").val(),
+					$("#q8").val(),
+					$("#q9").val(),
+					$("#q10").val()
+					]
+				}
+			
+				// Question: What does this code do??
+				$.post("/api/friends", newFriend)
+				.done(function(data) {
+					$("#myModal").modal("toggle");
+					$("#bestMatchName").html(data.name);
+					$("#bestMatchImage").attr("src", data.photo).css("width","90%");
+				//console.log(data);
 				
+				});			
+		}
+
+
+		$("#closeWindow").on("click", function(){
+		window.onbeforeunload = function () {
+  					window.scrollTo(0, 0);
+				}
+					window.location.reload();
+				});
+		</script>
+		
 	</body>
 </html>
